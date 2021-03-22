@@ -24,7 +24,7 @@ function uploadImagem(event){
    image.src = reader.result
    }
    reader.readAsDataURL(uploaded.files[0]);
-})
+});
 }
 
 uploadImagem();

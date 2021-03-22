@@ -1,6 +1,8 @@
 h1 {
   background-color: blue;
 }
+
 #meme-image-container {
   background-color: white;
+  border: 1px solid black;
 }
