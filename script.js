@@ -31,7 +31,7 @@ function botoesEstilizaContainer(){
   const pegaAgua = document.querySelector('#water');
   const pegaFogo = document.querySelector('#fire');
   const pegaTerra = document.querySelector('#earth');
-  const pegaContainer = document.querySelector('#meme-image-container')
+  const pegaContainer = document.querySelector('#meme-image-container');
 
   pegaAgua.addEventListener('click', function(){
     pegaContainer.style.border = '5px double rgb(0, 0, 255)'; 
@@ -42,7 +42,7 @@ function botoesEstilizaContainer(){
   });
 
   pegaTerra.addEventListener('click', function(){
-    pegaContainer.style.border = '6px groove rgb(0, 128, 0)'
+    pegaContainer.style.border = '6px groove rgb(0, 128, 0)';
   });
 }
 
