@@ -3,6 +3,17 @@ h1 {
 }
 
 #meme-image-container {
-  margin: auto;
+  background-color: white;
   border: 1px solid black;
+  width: 500px;
+  height: 500px;
+}
+
+#meme-text {
+  position: absolute;
+}
+
+#meme-image {
+  width: 500px;
+  height: 500px;
 }
