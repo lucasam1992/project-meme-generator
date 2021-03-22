@@ -3,6 +3,6 @@ h1 {
 }
 
 #meme-image-container {
-  background-color: white;
+  margin: auto;
   border: 1px solid black;
 }
