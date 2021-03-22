@@ -42,7 +42,7 @@ function botoesEstilizaContainer(){
   });
 
   pegaTerra.addEventListener('click', function(){
-    pegaContainer.style.border = '6px groove rgb(0, 128, 0)';
+    pegaContainer.style.border = '6px groove rgb(0, 255, 0)';
   });
 }
 
