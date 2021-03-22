@@ -28,3 +28,23 @@ function uploadImagem(event){
 
 uploadImagem();
 
+function botoesEstilizaContainer(){
+  const pegaAgua = document.querySelector('#water');
+  const pegaFogo = document.querySelector('#fire');
+  const pegaTerra = document.querySelector('#earth');
+  const pegaContainer = document.querySelector('#meme-image-container')
+
+  pegaAgua.addEventListener('click', function(){
+    pegaContainer.style.border = '5px double'; 
+  });
+
+  pegaFogo.addEventListener('click', function(){
+    pegaContainer.style.border = '3px dashed red';
+  });
+
+  pegaTerra.addEventListener('click', function(){
+    pegaContainer.style.border = '6px groove green'
+  });
+}
+
+botoesEstilizaContainer();
