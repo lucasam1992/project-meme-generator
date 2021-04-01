@@ -34,9 +34,10 @@ h1 {
   background-color:rgb(0, 128, 0);
 }
 
-#click-images, #meme1, #meme2, #meme3, #meme4 {
+#click-images, #meme-1, #meme-2, #meme-3, #meme-4 {
   width: 120px;
   height: 75px;
   display: flex;
   margin: 5px;
 }
+
