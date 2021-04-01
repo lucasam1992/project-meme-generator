@@ -49,10 +49,10 @@ function botoesEstilizaContainer(){
 botoesEstilizaContainer();
 
 function utilizaMemeDisponivel() {
-  const pegaMeme1 = document.querySelector('#meme1');
-  const pegaMeme2 = document.querySelector('#meme2');
-  const pegaMeme3 = document.querySelector('#meme3');
-  const pegaMeme4 = document.querySelector('#meme4');
+  const pegaMeme1 = document.querySelector('#meme-1');
+  const pegaMeme2 = document.querySelector('#meme-2');
+  const pegaMeme3 = document.querySelector('#meme-3');
+  const pegaMeme4 = document.querySelector('#meme-4');
   const pegaContainer = document.querySelector('#meme-image');
 
   pegaMeme1.addEventListener('click', function(event){
