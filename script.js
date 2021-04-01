@@ -47,3 +47,46 @@ function botoesEstilizaContainer(){
 }
 
 botoesEstilizaContainer();
+
+function utilizaMemeDisponivel() {
+  const pegaMeme1 = document.querySelector('#meme1');
+  const pegaMeme2 = document.querySelector('#meme2');
+  const pegaMeme3 = document.querySelector('#meme3');
+  const pegaMeme4 = document.querySelector('#meme4');
+  const pegaContainer = document.querySelector('#meme-image');
+
+  pegaMeme1.addEventListener('click', function(event){
+    pegaContainer.src = event.target.src;
+  });
+
+  pegaMeme2.addEventListener('click', function(event){
+    pegaContainer.src = event.target.src;
+  });
+
+  pegaMeme3.addEventListener('click', function(event){
+    pegaContainer.src = event.target.src;
+  });
+
+  pegaMeme4.addEventListener('click', function(event){
+    pegaContainer.src = event.target.src;
+  });
+}
+
+utilizaMemeDisponivel();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
