@@ -73,20 +73,3 @@ function utilizaMemeDisponivel() {
 }
 
 utilizaMemeDisponivel();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
