@@ -9,7 +9,7 @@ https://lucasam1992.github.io/project-meme-generator/
 - HTML
 - CSS
 - DOM
-- Javascript
+- Javascript - Vanilla.js
 
 ## Habilidades
 
